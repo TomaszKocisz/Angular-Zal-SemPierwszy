@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "title": "Kot brytyjski",
+    "imageUrl": "https://i.iplsc.com/-/0006JY5NSP7W09CV-C122-F4.png",
+    "content": "Ich wygląd jest bardzo reprezentacyjny, wręcz elegancki i dystyngowany.\r\n",
+    "likes": 1
+  },
+  {
+    "id": 1,
+    "title": "Kot perski",
+    "imageUrl": "https://i.iplsc.com/-/0006JY8LUUR7R8WS-C122-F4.jpg",
+    "content": "Mówi się, że to prawdziwa arystokracja wśród kocich ras.\r\n",
+    "likes": 2
+  },
+  {
+    "id": 2,
+    "title": "Koty rasy Maine Coon",
+    "imageUrl": "https://i.iplsc.com/-/0006JY5SEJMJRB89-C122-F4.png",
+    "content": "To największa kocia rasa. Dorosłe osobniki ważą nawet kilkanaście kilogramów, a ich długość może sięgnąć ponad metr.\r\n",
+    "likes": 3
+  },
+  {
+    "id": 3,
+    "title": "Kot syjamski",
+    "imageUrl": "https://i.iplsc.com/-/0006JY5VL2KNJSCB-C122-F4.png",
+    "content": "Wyróżnia się dużymi, lekko skośnymi, niebieskimi oczami. Jego waga z reguły nie przekracza 4 kilogramów.\r\n",
+    "likes": 4
+  },
+  {
+    "id": 4,
+    "title": "Kot rosyjski",
+    "imageUrl": "https://apetete.pl/blog/wp-content/uploads/2019/08/cat-4122355_640-970x690.jpg",
+    "content": "To co wyróżnia tego kota to oczy. Charakterystyczne, duże i zielone oczy, takie jakie powinien mieć kot.\r\n",
+    "likes": 4
+  }
+]

@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  font-family: "Catamaran", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  background-color: #eee;
+  text-align: left;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+.container {
+  width: 970px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.newsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news {
+  width: 25%;
+  background: white;
+  margin: 1%;
+  text-align: center;
+  flex: 1 0 23%;
+}
+
+.news img {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.header-big {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.header-small {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
