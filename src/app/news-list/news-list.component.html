@@ -1,6 +1,11 @@
 <div class="container">
   <app-news-editor></app-news-editor>
 
-  <app-news-item class="newsList" [news]="item" [index]="i" *ngFor="let item of news | sortByPipe; let i = index">
+  <app-news-item
+    class="newsList"
+    [news]="item"
+    [index]="i"
+    *ngFor="let item of news | sortByPipe; let i = index"
+  >
   </app-news-item>
 </div>

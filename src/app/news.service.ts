@@ -13,7 +13,7 @@ export class NewsService {
       new NewsData(news.id, news.title, news.imageUrl, news.content, news.likes)
   );
 
-  constructor() { }
+  constructor() {}
 
   public getNewsList(): NewsData[] {
     return this.news.slice();
@@ -34,10 +34,6 @@ export class NewsService {
     const index: number = this.findNewsIndexById(id);
 
     this.news.splice(index, 1);
-    this.onChange.emit();
-  }
-
-  public refresh() {
     this.onChange.emit();
   }
 

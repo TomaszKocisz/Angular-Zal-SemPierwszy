@@ -1,12 +1,13 @@
-label {
-  display: inline-block;
-  width: 100px;
+.textarea {
+  width: 250px;
 }
 
-textarea {
-  width: 200px;
+.input {
+  width: 250px;
 }
-
-input {
-  width: 200px;
+.button {
+  height: 50px;
+  width: 130px;
+  background-color: #1f1481;
+  color: white;
 }

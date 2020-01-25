@@ -12,7 +12,7 @@ export class NewsEditorComponent implements OnInit {
   content: string;
   likes: number;
 
-  constructor(private newsService: NewsService) { }
+  constructor(private newsService: NewsService) {}
 
   ngOnInit() {
     this.title = "";

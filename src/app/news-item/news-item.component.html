@@ -1,12 +1,16 @@
-<div [ngClass]="{ odd: index % 2 === 0, even: index % 2 == 1 }" *ngIf="news" class="news">
+<div
+  [ngClass]="{ odd: index % 2 === 0, even: index % 2 == 1 }"
+  *ngIf="news"
+  class="news"
+>
   <h1>{{ news.title }}</h1>
 
-  <img src="{{ news.imageUrl }}" width="30" height="45" />
+  <img src="{{ news.imageUrl }}" width="45" height="60" />
 
   <p>{{ news.content }}</p>
 
   <h2>Likes: {{ news.likes }}</h2>
-  <button (click)="remove()">Delete</button>
-  <button (click)="likeUp()">+</button>
-  <button (click)="likeDown()">-</button>
+  <button class="delete" (click)="remove()">Delete</button>
+  <button class="button" (click)="likeUp()">+</button>
+  <button class="button" (click)="likeDown()">-</button>
 </div>
