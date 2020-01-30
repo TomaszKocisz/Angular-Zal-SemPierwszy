@@ -22,4 +22,4 @@ import { SortByPipe } from "./SortByPipe";
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

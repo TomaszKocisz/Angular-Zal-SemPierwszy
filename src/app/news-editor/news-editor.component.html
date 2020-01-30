@@ -15,5 +15,17 @@
 </div>
 <br />
 <div>
-  <button class="button" (click)="addNews()">Add new</button>
+  <button class="button" (click)="addNews()">
+    Add new
+  </button>
+</div>
+<div>
+  <button class="button2" [ngStyle]="{ 'background-color': getRandomColor() }">
+    Kolor
+  </button>
+</div>
+<div>
+  <button class="button2">
+    5 sekund
+  </button>
 </div>

@@ -11,3 +11,16 @@
   background-color: #1f1481;
   color: white;
 }
+.button2 {
+  height: 50px;
+  width: 130px;
+  color: white;
+  background-color: #3bacee;
+}
+.button2:hover {
+  height: 50px;
+  width: 130px;
+  color: white;
+  transition-delay: 5s;
+  background-color: #1f1481;
+}
